@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  discovery:
+    image: discovery:latest
+    container_name: discovery
+    ports:
+      - "8761:8761"
+    networks:
+      - shop-network
+
+networks:
+  shop-network:
+    driver: bridge
