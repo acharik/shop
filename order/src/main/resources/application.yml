@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: order
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order
+    username: pgadmin
+    password: pgadmin
+  graphql:
+    graphiql:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop

@@ -1,0 +1,12 @@
+type OrderItemOutDto {
+    id: ID!
+    productId: ID!
+    productName: String!
+    quantity: Int!
+    productPrice: Float!
+    note: String
+    discountAmount: Float
+    taxAmount: Float
+    taxPercent: Float
+    orderId: ID!
+}

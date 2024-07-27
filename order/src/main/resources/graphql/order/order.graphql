@@ -1,0 +1,9 @@
+type OrderOutDto {
+id: ID!
+orderStatus: OrderStatus!
+totalPrice: Float!
+deliveryStatus: DeliveryStatus!
+deliveryMethod: DeliveryMethod!
+orderItems: [OrderItemOutDto!]!
+createdOn: String! # ISO 8601 format date-time
+}
